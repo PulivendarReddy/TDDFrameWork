@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <listeners>
+<listeners class-name="com.qa.listeners.TestListener"/>
+</listeners>
+  <test name="Test">
+    
+<parameter name="emulator" value="true"/>
+     <parameter name="platformName" value="Android"/>
+     <parameter name="platformVersion" value="11.0"/>
+     <parameter name="deviceName" value="Pixel4"/>
+     <parameter name="udid" value="ZD2224NTKG"/>
+     
+     <classes>
+      <class name="com.qa.tests.LoginTests"/>
+      <class name="com.qa.tests.ProductTests"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
+
+
